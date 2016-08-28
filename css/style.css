@@ -1,0 +1,196 @@
+body {
+	font-size:14px;
+	color:#FFFFFF;
+}
+a {
+	color:#FFFFFF;	
+}
+
+.top-section {
+	background-image: url(../images/banner.jpg);
+	background-position: center;
+	background-size:cover;
+	height: auto;
+	widows: auto;
+}
+.dropdown-menu {
+	background-image:linear-gradient(120deg,#1D7895,#09767B);
+	border-radius: 0px;	
+	text-align: center;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	color: #FFFFFF;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+	color: #FFFFFF;
+}
+.dropdown-menu li a:hover {
+	background-color: #6E7475;
+}
+/*Just overwritting bootstrap css*/
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	color: #FFFFFF;
+	background-color: transparent;
+}
+.is-navbar {
+	/*background-image:linear-gradient(120deg,#4A7DE3,#0ED4F4);*/
+	/*background-image:linear-gradient(120deg,#06735D,#09324F);*/
+	border-radius:0px;
+}
+.navbar {
+	border:0px;
+	margin-bottom:0px;
+	background:transparent;	
+}
+.nav.navbar-nav.navbar-right li a {
+    color:#FFFFFF;
+    font-weight: bolder;
+}
+.navbar-default .navbar-brand,.navbar-default .navbar-brand:hover {
+	color:#FFFFFF;
+	font-weight: bolder;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color:#FFFFFF;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background:transparent;
+}
+.btn-default, .btn-default:hover, .btn-default:active, .btn-default:focus, .btn-default:visited{
+	background-color:#1D7895;
+	background-image:linear-gradient(120deg,#1D7895,#09767B);
+	color:#FFFFFF;
+}
+.btn-default:active:focus, .btn-default:active:hover{
+	background-color:#1D7895;
+	background-image:linear-gradient(120deg,#1D7895,#09767B);
+	color:#FFFFFF;
+}
+/*my own css*/
+.circular-logo {
+	height: 100px;
+	width: 100px;
+	background-image: url(../images/logo.png);
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center;
+	border-radius: 50%;
+}
+.is-banner {
+	/*background-image:linear-gradient(120deg,#06735D,#09324F);*/
+	/*background-color: #06735D;*/
+}
+.is-message {
+	padding:15% 0 0 0;
+	color:#FFFFFF;
+}
+h1 {
+	font-size:3rem;
+}
+.is-btn {
+	padding:5% 0 15% 0;	
+}
+/*circular nav starts*/
+.col-sm-4 {
+	padding:5% 0 0 0;
+	height:320px;
+}
+.is-circ-nav {
+	height:200px;
+	width:200px;
+	margin:0 auto;
+	/*box-shadow: -10px 0px 10px 1px #aaaaaa;*/
+	box-shadow:-5px 0px 20px 1px #aaaaaa;
+	border-radius:50%;
+	color:#949A9C;
+}
+.is-circ-nav{
+	padding:5% 5% 0 5%;
+}
+.is-circ-nav:hover{
+	height:205px;
+	width:205px;
+	padding:5% 5% 0 5%;	
+}
+
+/*footer starts*/
+.is-footer {
+	/*background-image:linear-gradient(120deg,#222222,#575656);*/
+	background-color: #274c5e;
+}
+.is-footer-nav, .is-footer-joinus{
+	height:200px;
+	padding:8% 0 0 0;	
+}
+.is-footer-social-link {
+	padding:5% 0 4% 0;
+}
+.is-footer-nav ul li a span {
+	padding:0 2% 0 0;
+	font-size:2rem;
+}
+.is-footer-nav ul li {
+	padding:1% 0 0 0;
+	font-size:2rem;
+}
+
+.is-footer-joinus {
+	padding:3% 0 0 0;
+}
+
+.is-message-box {
+	padding:5% 0;
+}
+
+.is_contact_header,.is_about_header
+{
+	/*background-image:linear-gradient(120deg,#06735D,#09324F);*/
+	padding:5% 0;
+	color:#424647;
+}
+.is_contact_header h5 ,.is_about_header h5{
+	color:#949A9C;
+}
+textarea {
+    resize: none;
+}
+
+.message-sending {
+	/*background-image:linear-gradient(120deg,#06735D,#09324F);*/
+	background:transparent;
+	border-color:#949A9C;
+	color: #949A9C;
+}
+
+i {
+	padding:2% 2%;
+}
+
+@media(max-width:768px) {
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		background-color: #1D7895;
+		background-image:linear-gradient(120deg,#1D7895,#09767B);
+	}
+	.is-message {
+		padding:45% 0 0 0;
+	}
+
+}
+a :hover {
+	color:#FFFFFF;
+}
+
+/*this code below does all the scrolling effect*/
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+	background-image:linear-gradient(120deg,#1D7895,#09767B);
+	/*background-image:linear-gradient(120deg,#222222,#575656);*/
+}
